@@ -1,0 +1,6 @@
+Dataset Details: ppi 
+=============== 
+Good Balls: 7893, Valid Balls: 9412 
+MAE: 0.35861751273778913, MSE: 0.4203099308203918 
+
+ HDMA_mean: 0.7577948193464242, HDMA_median: 0.7999999999999999,  NDCG_mean: 0.8973588305617741, NDCG_median: 0.8964330163638894, total_subconcept_ndcg_applied: 2704, total_multiple_superconcepts: 3061
