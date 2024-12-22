@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Results
 - **Entity Association Detection**: At least **2× improvement** over existing models.
-- **Confidence Prediction Error**: Reduced by a **minimum of 10%**.
+- **Confidence Prediction Error**: Reduced by a **minimum of 5%**.
 
 ## Citation
 If you use *Stat-n-Ball* in your research, please cite:
