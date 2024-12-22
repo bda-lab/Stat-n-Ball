@@ -1,4 +1,4 @@
-# (complete code will be added by Dec 21 AOE)
+# (complete code will be added by Dec 21/22 AOE) (Code upload in progress. Sorry for the inconvenience).
 
 # Stat-n-Ball: Enhancing Probabilistic Knowledge Graph Embeddings with Geometric and Confidence-Aware Models
 
