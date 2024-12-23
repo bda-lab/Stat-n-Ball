@@ -14,5 +14,6 @@ Eg:
 <br />
 ```python3 evaluator_ppi.py ppi_test.txt  ppi_cls_embeddings.pkl ppi_rel_embeddings.pkl ppi --output_ppi.txt```
 
-Similarly for **cn** and **nl** datasets,
+Similarly for **cn** and **nl** datasets, <br />
+<br />
 ```python3 evaluator_nl_cn_data.py --test_file --cls_file --dataset_dets --output_file_name```
