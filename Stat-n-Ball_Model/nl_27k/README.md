@@ -1,6 +1,6 @@
 To run stats-n-ball model:
 
-```python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim```
+```python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim``` <br \>
 
 **valid_file**=validation dataset
 **df_train_file**=training dataset
