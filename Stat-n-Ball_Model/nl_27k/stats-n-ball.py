@@ -1151,7 +1151,7 @@ class ELModel(tf.keras.Model):
         dd=d[:,:-1]
         cc=c[:,:,:-1]
         dd=tf.repeat(dd,[varss],axis=0)
-        dd=tf.reshape(dd,[256,varss,50])###
+        dd=tf.reshape(dd,[256,varss,int(hyperparam_dim)])###
         tf_dist=tf.reduce_sum(tf.abs(dd-cc)**2, -1)**(1./2)
         dr_x=tf.repeat(dr,[varss],axis=0)
         dr_x=tf.reshape(dr_x,[256,varss])
