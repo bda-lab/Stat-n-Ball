@@ -1,4 +1,4 @@
-To run the evaluator files: <br />
+To run the evaluator file for **ppi** dataset: <br />
 <br />
 ```python3 evaluator_ppi.py --test_file --cls_file --rel_file --dataset_dets --output_file_name```
 <br />
@@ -11,3 +11,6 @@ To run the evaluator files: <br />
 Eg:
 <br />
 ```python3 evaluator_ppi.py ppi_test.txt  ppi_cls_embeddings.pkl ppi_rel_embeddings.pkl ppi --output_ppi.txt```
+
+Similarly for **cn** and **nl** datasets,
+```python3 evaluator_nl_cn_data.py --test_file --cls_file --dataset_dets --output_file_name```
