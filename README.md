@@ -24,33 +24,7 @@ We evaluate our approach using three probabilistic knowledge graph datasets:
 - **Enhanced Reasoning**: Enables accurate link prediction and confidence estimation in noisy and incomplete knowledge graphs.
 - **State-of-the-Art Performance**: Achieves significant improvements in entity association detection and confidence prediction error.
 
-## Getting Started
-### Prerequisites
-Ensure you have the following libraries installed:
-- Python 3.8+
-- NumPy
-- PyTorch
-- Scikit-learn
 
-### Installation
-Clone the repository and install the dependencies:
-```bash
-git clone https://github.com/yourusername/stat-n-ball.git
-cd stat-n-ball
-pip install -r requirements.txt
-```
-
-### Usage
-1. Prepare your dataset in the supported format.
-2. Configure the settings in `config.yaml`.
-3. Train the model:
-   ```bash
-   python train.py --config config.yaml
-   ```
-4. Evaluate the model:
-   ```bash
-   python evaluate.py --config config.yaml
-   ```
 
 ## Results
 - **Entity Association Detection**: At least **2× improvement** over existing models.
