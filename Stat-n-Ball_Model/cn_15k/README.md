@@ -4,7 +4,7 @@ To run stats-n-ball model: <br />
 <br />
 <br />
 **valid_file**=validation dataset <br />
-**df_train_file**=validation dataset <br />
+**df_train_file**=training dataset <br />
 **owl_file**=owl file <br />
 **save_file_file**=file name where the embeddings will be saved <br />
 **hyperparam_margin_loss**= margin loss <br />
