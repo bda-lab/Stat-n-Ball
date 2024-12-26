@@ -1665,7 +1665,7 @@ for d in embed_dims:
     for m in margins:
         margin = m
         print("**************Margin Loss:",margin,"***************")
-        out_classes_file = f'nl_27k_results/EmEL_dir/GO_{embedding_size}_{margin}_{epochs}_{save_file_name}.pkl'
-        out_relations_file = f'nl_27k_results/EmEL_dir/GO_{embedding_size}_{margin}_{epochs}_{save_file_name}.pkl'
-        loss_history_file= f'nl_27k_results/EmEL_dir/GO_lossHis_{embedding_size}_{margin}_{epochs}_{save_file_name}.csv'
+        out_classes_file = f'Stat_n_Ball_results/EmEL_dir/GO_{embedding_size}_{margin}_{epochs}_{save_file_name}.pkl'
+        out_relations_file = f'Stat_n_Ball_results/EmEL_dir/GO_{embedding_size}_{margin}_{epochs}_{save_file_name}.pkl'
+        loss_history_file= f'Stat_n_Ball_results/EmEL_dir/GO_lossHis_{embedding_size}_{margin}_{epochs}_{save_file_name}.csv'
         build_model(device,train_data_model,classes,relations,valid_data_model)
