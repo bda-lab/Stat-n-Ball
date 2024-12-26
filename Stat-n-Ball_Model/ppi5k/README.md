@@ -1,6 +1,6 @@
 To run stats-n-ball model:
 
-python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim
+```python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim```
 
 valid_file=validation dataset
 df_train_file=training dataset
@@ -12,4 +12,4 @@ hyperparam_dim= no. of dimensions
 Eg:
 
 
-python3 stats-n-ball.py test_file.txt train.tsv ppi_5k_axioms.owl ppi5k_embed_outputs 0.1 50
+```python3 stats-n-ball.py test_file.txt train.tsv ppi_5k_axioms.owl ppi5k_embed_outputs 0.1 50```
