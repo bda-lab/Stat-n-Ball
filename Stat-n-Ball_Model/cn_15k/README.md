@@ -1,3 +1,8 @@
+
+Make a directory where you want to save embedding files: <br />
+
+```mkdir Stat_n_Ball_results/EmEL_dir``` <br />
+
 To run stats-n-ball model: <br />
 <br />
 ```python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim```
@@ -15,4 +20,6 @@ Eg:
 <br />
 
 
-```python3 stats-n-ball.py test_file.txt train.tsv cn_15k_axioms.owl cn15k_embed_outputs 0.1 50```
+```python3 stats-n-ball.py test_file.txt train.tsv cn_15k_axioms.owl cn15k_embed_outputs 0.1 50``` <br />
+
+Results will be stored in **Stat_n_Ball_results/EmEL_dir**
