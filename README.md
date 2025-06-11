@@ -2,7 +2,7 @@
 
 # Stat-n-Ball: Enhancing Probabilistic Knowledge Graph Embeddings with Geometric and Confidence-Aware Models 
 
-[Paper Link](https://drive.google.com/file/d/17I0kh-e5o7ev56VDn8dwiFTM60DN-ukn/view)
+[Paper Link](https://dl.acm.org/doi/10.1145/3701716.3715487)
 
 ## Abstract
 Region-based Knowledge Graph Embedding (R-KGE) models, which represent entities as convex shapes (e.g., balls) and relations as geometric transformations in vector space, offer a promising approach for explainable and accurate reasoning over ontologies. However, existing R-KGE models assume perfect reliability of Knowledge Graphs (KGs), which is often unrealistic as real-world KGs are noisy and incomplete. To address this, Probabilistic Knowledge Graphs (P-KGs) associate axioms with confidence scores, capturing the uncertainty of their truthfulness.
