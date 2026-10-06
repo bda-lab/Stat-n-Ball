@@ -5,7 +5,7 @@ Make a directory where you want to save embedding files: <br />
 
 To run stats-n-ball model: <br />
 <br />
-```python3 stats-n-ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim```
+```python3 stat_n_ball.py --valid_file --df_train_file --owl_file --save_file_name --hyperparam_margin_loss --hyperparam_dim```
 <br />
 <br />
 **valid_file**=validation dataset <br />
