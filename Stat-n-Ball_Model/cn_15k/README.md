@@ -15,7 +15,7 @@ mkdir -p Stat_n_Ball_results/EmEL_dir
 Run the model with:
 
 ```bash
-python3 stats-n-ball.py <valid_file> <df_train_file> <owl_file> <save_file_name> <hyperparam_margin_loss> <hyperparam_dim>
+python3 stat_n_ball.py <valid_file> <df_train_file> <owl_file> <save_file_name> <hyperparam_margin_loss> <hyperparam_dim>
 ```
 
 ## Arguments
